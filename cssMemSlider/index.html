@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title>CSS Mem Slider</title>
+	<link rel="icon" type="image/x-icon" href="./assets/favicon-32x32.png">
+</head>
+<body>
+	<div class="container">
+		<div class="slider_wrapper">
+			<input type="radio" id="firstSlide" name="slides" class="slide_group_1" checked/>
+			<input type="radio" id="secondSlide" name="slides" class="slide_group_2" />
+			<input type="radio" id="thirdSlide" name="slides" class="slide_group_3" />
+			<input type="radio" id="fourthSlide" name="slides" class="slide_group_4" />
+			
+			<div class="slides">
+				<div class="slide">
+					<img class="slide_image" src="./assets/slide-React.webp" alt="React">
+				</div>
+				<div class="slide">
+					<img class="slide_image" src="./assets/vueJS.webp" alt="vueJS">
+				</div>
+				<div class="slide">
+					<img class="slide_image" src="./assets/backend.webp" alt="backend">
+				</div>
+				<div class="slide">
+					<img class="slide_image" src="./assets/think-smart.gif" alt="think-smart">
+				</div>
+			</div>
+
+			<div class="slides_description">
+				<p class="slide_description">We know that you know React.</p>
+				<p class="slide_description">One more compliment to Vuejs developers.</p>
+				<p class="slide_description">Backend Developer</p>
+				<p class="slide_description">Can't be coerced if you use triple equals</p>
+			</div>
+			
+			<div class="slider_controls">
+				<label for="firstSlide" class="control_wrapper">
+					<span class="control-icon"></span>
+				</label>
+				<label for="secondSlide" class="control_wrapper">
+					<span class="control-icon"></span>
+				</label>
+				<label for="thirdSlide" class="control_wrapper">
+					<span class="control-icon"></span>
+				</label>
+				<label for="fourthSlide" class="control_wrapper">
+					<span class="control-icon"></span>
+				</label>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
