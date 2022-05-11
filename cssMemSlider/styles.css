@@ -88,7 +88,9 @@ body {
 .slide_group_2,
 .slide_group_3,
 .slide_group_4 {
-	display: none;
+	width: 0;
+	height: 0;
+	visibility: hidden;
 }
 
 .slide_group_1:checked ~ .slides {
@@ -177,26 +179,26 @@ body {
 
 .slide_group_1:checked ~ .slider_controls > .control_wrapper:nth-child(1) > .control-icon {
 	background-color: #666800;
-	border: 2px solid #666800;
-	width: 50px;
+	border: 0.125rem solid #666800;
+	width: 3rem;
 	transition: .3s ease-in;
 }
 .slide_group_2:checked ~ .slider_controls > .control_wrapper:nth-child(2) > .control-icon {
 	background-color: #666800;
-	border: 2px solid #666800;
-	width: 50px;
+	border: 0.125rem solid #666800;
+	width: 3rem;
 	transition: .3s ease-in;
 }
 .slide_group_3:checked ~ .slider_controls > .control_wrapper:nth-child(3) > .control-icon {
 	background-color: #666800;
-	border: 2px solid #666800;
-	width: 50px;
+	border: 0.125rem solid #666800;
+	width: 3rem;
 	transition: .3s ease-in;
 }
 .slide_group_4:checked ~ .slider_controls > .control_wrapper:nth-child(4) > .control-icon {
 	background-color: #666800;
-	border: 2px solid #666800;
-	width: 50px;
+	border: 0.125rem solid #666800;
+	width: 3rem;
 	transition: .3s ease-in;
 }
 
